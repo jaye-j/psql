@@ -31,3 +31,22 @@
 -- SELECT name FROM restaurant WHERE last_visit = '2020-03-02';
 
 -- SELECT name FROM restaurant WHERE last_visit = '2020-03-02' AND stars = 5;
+
+
+-- Aggregation and Sorting Queries
+
+-- SELECT name FROM restaurant ORDER BY distance;
+
+-- SELECT name FROM restaurant ORDER BY distance LIMIT 2;
+
+-- SELECT name FROM restaurant ORDER BY stars DESC LIMIT 2;
+
+-- SELECT name FROM restaurant WHERE distance < 2 ORDER BY stars DESC LIMIT 2;
+
+-- SELECT COUNT(name) FROM restaurant;
+
+-- SELECT COUNT(category) FROM restaurant WHERE category = 'Fast Food';
+
+-- SELECT AVG(stars) FROM restaurant WHERE category = 'Fast Food';
+
+-- SELECT MAX(stars) FROM restaurant WHERE category = 'Fast Food';
