@@ -62,4 +62,6 @@
 
 -- SELECT name FROM student2 WHERE github_username like '%bd%';
 
-ALTER TABLE student2 DROP COLUMN website;
+-- ALTER TABLE student2 DROP COLUMN website;
+
+SELECT SUM(points) FROM student2;
